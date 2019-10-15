@@ -1,0 +1,67 @@
+html {
+  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/1920px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg");*/
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin: -10px;
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.infoboxes{
+  /*background-color: rgba(2, 111, 166, 0.4);*/
+}
+
+.headerButtons {
+}
+
+
+.linkedin-img{
+  opacity: 0.5;
+  transition: opacity 0.25s
+}
+
+.linkedin-img:hover{
+  opacity: 1
+}
+
+.github-img{
+  opacity: 0.5;
+  transition: opacity 0.25s
+}
+
+.github-img:hover{
+  opacity: 1
+}
+
+.project-box{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.3);
+  border: 3px solid rgb(150, 150, 150);
+  border-bottom: 3px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  transition: background-color 0.25s, border-bottom 0.50s;
+  cursor: pointer
+}
+
+.project-box-text{
+  color: black;
+  transition: color 0.25s
+}
+
+.project-box:hover{
+  background-color: rgba(255,255,255,0.7);
+  border-bottom: 4px solid rgba(255, 0, 0, 0.61);
+}
+
+.project-box:hover .project-box-text{
+  color: rgba(255, 0, 0, 0.384);
+}
+
