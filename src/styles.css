@@ -16,7 +16,21 @@ html {
   /*background-color: rgba(2, 111, 166, 0.4);*/
 }
 
+
 .headerButtons {
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.178);
+  float: middle;
+  height: 30px;
+  text-decoration: none;
+  font-family: 'Verdana';
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.headerButtons:hover{
+  background-color: rgb(51, 51, 51)
 }
 
 
@@ -65,3 +79,22 @@ html {
   color: rgba(255, 0, 0, 0.384);
 }
 
+.home-button.invisible{
+  top: -50px;
+  opacity: 0.3;
+  transition: opacity 0.25s, background-color 0.25s, top 0.15s
+}
+
+.home-button.visible{
+  top: 20px;
+  opacity: 0.3;
+  transition: opacity 0.25s, background-color 0.25s, top 0.15s
+}
+
+.home-button.visible:hover{
+  opacity: 1;
+}
+
+.home-button.visible:focus{
+  background-color: rgba(255, 255, 255, 0.5);
+}
