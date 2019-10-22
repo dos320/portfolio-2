@@ -89,7 +89,7 @@ class App extends React.Component{
                     position: 'fixed', 
                     left: '20px',
                     height: '40px',
-                    border: '1px solid white',
+                    border: '1px solid black',
                     borderRadius: "40px",
                   }} 
                   onClick={()=>{window.scrollTo(0,0)}}>
@@ -101,7 +101,7 @@ class App extends React.Component{
                     position: 'fixed', 
                     left: '20px', 
                     height: '40px',
-                    border: '1px solid white',
+                    border: '1px solid black',
                     borderRadius: "40px",
                   }} 
                   onClick={()=>{window.scrollTo(0,0)}}>
