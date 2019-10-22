@@ -104,6 +104,7 @@ class App extends React.Component {
                   />
                 </button>
               ) : (
+
                 <button
                   className="home-button invisible"
                   style={{
