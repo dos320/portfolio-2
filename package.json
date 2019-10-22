@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "http://dos320.github.io/portfolio-2",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
